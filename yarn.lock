@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 6
   cacheKey: 7
 
 "@babel/code-frame@npm:7.8.3, @babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.8.3":
@@ -2831,6 +2831,15 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 241b797baf39b876afad81cda3df0c6d73e516a12834d42c7197806642223508c91fd49e6ffec4e40f8e0aa3712587562632cdcfdd48ac8fb5b389154a1c471f
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.5.0":
+  version: 8.8.1
+  resolution: "acorn@npm:8.8.1"
+  bin:
+    acorn: bin/acorn
+  checksum: 8/4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
   languageName: node
   linkType: hard
 
@@ -6799,6 +6808,7 @@ __metadata:
   dependencies:
     node-gyp: latest
   checksum: 8f61ef784058aa410def121afcf20014fbb845c678c04e43fe1fd1edec6c469c5452343b4a49960d89e8a207955c8e9b37a229af7a8fc5b28658c9e0faabe086
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -6811,27 +6821,28 @@ fsevents@^1.2.7:
     node-gyp: latest
     node-pre-gyp: "*"
   checksum: f97653eba7080ab16cfcdeb5d75663f50af436981374c59993476c8b3ece579ff6e2d9b2d24de3852495da7809beb6850b897d7b95f92157fd0eeffc74d12176
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@2.1.2#builtin<compat/fsevents>, fsevents@patch:fsevents@~2.1.2#builtin<compat/fsevents>":
+"fsevents@patch:fsevents@2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.1.2#~builtin<compat/fsevents>":
   version: 2.1.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#builtin<compat/fsevents>::version=2.1.2&hash=11e9ea"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.2#~builtin<compat/fsevents>::version=2.1.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
-  checksum: f4e06c69cb1f888dcefd81822f7789fadb2885efd0f5967cb1ec499d5bdd086fa6b7ab5d76ad2160bed8e68daf81fa96be8b8bf61957d7a531b4c12dbeab3a6a
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@^1.2.7#builtin<compat/fsevents>":
+"fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.12
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.12#builtin<compat/fsevents>::version=1.2.12&hash=11e9ea"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.12#~builtin<compat/fsevents>::version=1.2.12&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
     node-gyp: latest
     node-pre-gyp: "*"
-  checksum: fe3016d5c0cbdff2077b915311eaeefe46d0522562abaa1c10a792bb0ff936f029cc05fe44ef89ecfa9bf1785fc13003f9a1a6c17cfa20bce6e1a64f15e0e67e
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -7549,13 +7560,13 @@ fsevents@^1.2.7:
   linkType: hard
 
 "http-proxy@npm:^1.17.0":
-  version: 1.18.0
-  resolution: "http-proxy@npm:1.18.0"
+  version: 1.18.1
+  resolution: "http-proxy@npm:1.18.1"
   dependencies:
     eventemitter3: ^4.0.0
     follow-redirects: ^1.0.0
     requires-port: ^1.0.0
-  checksum: 7b7b93f4c1894b58904af182746f9ad51531a28d32c694029ea5356cbf5b83b68b6618d7239fdaae486dffed3858b20f1ffc68c2a709282226abb481e3cc2640
+  checksum: 8/f5bd96bf83e0b1e4226633dbb51f8b056c3e6321917df402deacec31dd7fe433914fc7a2c1831cf7ae21e69c90b3a669b8f434723e9e8b71fd68afe30737b6a5
   languageName: node
   linkType: hard
 
@@ -13273,28 +13284,28 @@ resolve@1.15.0:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@1.1.7#builtin<compat/resolve>":
+"resolve@patch:resolve@1.1.7#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#builtin<compat/resolve>::version=1.1.7&hash=3388aa"
-  checksum: ca4e21815c78134fdb248d2175d98c2ead024c680a3a9c7b8ee13fc8a7f5157e061b13ae29ee07a60e1b9faea33c3740cb88d48d94966d7e94479add70d3f544
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
+  checksum: 8/e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@1.15.0#builtin<compat/resolve>":
+"resolve@patch:resolve@1.15.0#~builtin<compat/resolve>":
   version: 1.15.0
-  resolution: "resolve@patch:resolve@npm%3A1.15.0#builtin<compat/resolve>::version=1.15.0&hash=3388aa"
+  resolution: "resolve@patch:resolve@npm%3A1.15.0#~builtin<compat/resolve>::version=1.15.0&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
-  checksum: d544b03a55066b160338ca597c4a510247e4476dec897fc81e486e1e2a5c06083300dbd43675fb5c59b4bc331d12880e7cd397bef159dd0e5a0876a35296be33
+  checksum: 8/fd308e2054e85f829a29e2a5f4634942272b9bfc2771f95fbd1c2068f47a7f4f0f5d4ccb11cb4522f9a8490edd036299f7a85e76327ed8b91bd1a41d314e2bf0
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.15.1#builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.15.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#~builtin<compat/resolve>":
   version: 1.15.1
-  resolution: "resolve@patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=3388aa"
+  resolution: "resolve@patch:resolve@npm%3A1.15.1#~builtin<compat/resolve>::version=1.15.1&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
-  checksum: 6588c8a8735d8b2a00cfee2a325538f325ae5e48653490882d3e8afe6124f25c25d60ec09864f30a03c4471a3201c9cfba0e14ca0f74f626ac4b5c8d2e42c2c2
+  checksum: 8/db40f1203ef19e18edc66801c7a5903b903f20c318c1d7d234dd5b792361bf336b556d27e7f1831871d15471d3d7ed7baad979a781fb57463a36ea1abd293608
   languageName: node
   linkType: hard
 
