@@ -22,7 +22,7 @@ const font = {
 }
 
 const color = {
-  link: '#0089ff',
+  link: '#1700e8',
   linkHover: '#f41224',
   linkVisited: '#b40eb4',
   textBase: '#000000',

@@ -18,7 +18,7 @@ const features = [
   {
     id: 1,
     title: 'управление голосом',
-    description: 'просто скажите «Привет! Я дома»',
+    description: 'просто скажите «Привет! Я дома»',
     size: 'm',
     image: iconFeatureVoice,
     css: `
@@ -73,8 +73,8 @@ const features = [
     image: iconFeatureAudio,
     css: `
       background-color: #eee;
-      background-position: right bottom;
-      background-size: contain;
+      background-position: bottom right;
+      background-size: 200px;
       padding: 30px 200px 30px 30px;
   `
   },
@@ -97,8 +97,8 @@ const productFeatures = [
     css: `
     background-color: #e6e2d9;
     background-size: cover;
-    background-position: -20px 75%;
-    padding: 30px 30px 30px 150px;
+    background-position: 0 70%;
+    padding: 30px 30px 30px 120px;
   `
   },
   {
